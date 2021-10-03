@@ -36,11 +36,7 @@ client.on("ready", () => {
     console.log("");
     console.log("");
     console.log("Type >>xp to start. Messages will be logged here:".yellow)
-}, 2000);
-}, 2000);
-}, 2000);
-}, 2000);
-}, 2000);
+
 
 });
 client.on("message", async message => {
