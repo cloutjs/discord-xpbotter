@@ -28,20 +28,6 @@ rl.question('What is your discord token? ', (answer) => {
 {
 
 client.on("ready", () => {
-    setTitle("XP Bot [by clout] | V1.5 | Loading")
-    console.log("Logging you in...");
-    setTimeout(() => {
-    console.clear();
-    console.log("[WARN] Connecting to Discord API...".error);
-    setTimeout(() => {
-    console.log(`[SUCCESS] Connection succesfull.`.clime);
-    setTimeout(() => {
-    console.clear();
-    console.log(`[WARN] Logging into token...`.error);
-    setTimeout(() => {
-    setTitle("XP Bot [by clout] | V1.5 | Main Menu")
-    console.log(`[SUCCESS] Logged succesfully into ${client.user.tag}`.clime);
-    setTimeout(() => {
     console.clear();
     tbg.print('XP BOT');
     console.log("");
